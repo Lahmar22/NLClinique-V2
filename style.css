@@ -100,7 +100,7 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 50px 1fr 1fr 50px;
+  grid-template-columns: 50px 2fr 2fr 50px;
   
 }
 .content{
@@ -200,7 +200,6 @@ main {
 }
 
 .photo img{
-    margin-top: 80px;
     width: 700px;
     height: auto;   
 }
@@ -312,7 +311,58 @@ main {
     bottom: 60px;
     text-align: center;
 }
+.content1{
+    position: relative;
+    top: 80px;
+    right: 40px;
+}
+.content1 h2{
+    background-color:rgb(104, 189, 20) ;
+    border-radius: 10px;
+    width: 160px;
+    height: 50px;
+   
+}
+.content1 h1{
+    color: white;
+    font-size: 4em  ;
+}
+.content1 p{
+    color: white;
+    font-size: 1.5em  ;
+}
+.card{
+    position: relative;
+    top: 50px;
+    border: 1px solid white;
+    border-radius: 20px;
 
+}
+.card img{
+    position: relative;
+    bottom: 30px;
+}
+.card strong {
+    color: white;
+    
+}
+.card strong img{
+    position: relative;
+    top: 5px;
+}
+.card p{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+.btn button{
+    position: relative;
+    color: white;
+    font-size: 2em;
+    border: none;
+    top: 40px;
+
+}
 
 
 footer {
