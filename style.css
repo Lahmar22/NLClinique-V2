@@ -355,12 +355,18 @@ main {
     bottom: 50px;
     left: 20px;
 }
-.btn button{
+.btn1 button{
     position: relative;
     color: white;
-    font-size: 2em;
-    border: none;
-    top: 40px;
+    border:none;
+    height: 70px;
+    width: 300px;
+    font-size: 1.5em;
+    align-items: center;
+    justify-items: center;
+    border-radius: 20px;
+    background-color: tomato;
+    top: 80px;
 
 }
 
