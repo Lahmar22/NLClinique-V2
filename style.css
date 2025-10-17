@@ -22,7 +22,7 @@ body {
         "main"
         "footer";
     grid-template-rows: 90px 1fr 50px;
-    height: 100vh;
+    
 }
 
 .navbar {
@@ -101,6 +101,13 @@ body {
 main {
   display: grid;
   grid-template-columns: 50px 2fr 2fr 50px;
+  
+}
+.main2 {
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  align-items: center;
+  justify-items: center;
   
 }
 .content{
@@ -367,6 +374,54 @@ main {
     border-radius: 20px;
     background-color: tomato;
     top: 80px;
+
+}
+
+.blocDoctors{
+    display: flex;
+    gap: 50px ;
+    margin-bottom: 50px;
+
+}
+.content4 h1{
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+
+}
+.doctor1{
+    background: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center; 
+    justify-items: center;
+}
+
+.doctor1 h2,h4,p{
+    text-align: center;
+    color: #175190;
+}
+.btn2{
+    display: flex;
+    justify-content: center;  
+ }
+
+
+.btn2 button{
+    color: white;
+    border:none;
+    height: 70px;
+    width: 300px;
+    font-size: 1.5em;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 20px;
+    background-color: tomato;
+    margin-bottom: 40px;
 
 }
 
