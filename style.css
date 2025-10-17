@@ -311,23 +311,30 @@ main {
     position: relative;
     left: 30px;
     bottom: 40px;
+    
 }
 .exp p{
-    font-size: 1.5em;
     position: relative;
-    bottom: 60px;
-    text-align: center;
+    font-size: 1.5em;
+    bottom: 80px;
+    
 }
 .content1{
     position: relative;
     top: 80px;
     right: 40px;
+    
 }
 .content1 h2{
     background-color:rgb(104, 189, 20) ;
     border-radius: 10px;
     width: 160px;
     height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
    
 }
 .content1 h1{
@@ -399,9 +406,12 @@ main {
     justify-items: center;
 }
 
-.doctor1 h2,h4,p{
+.doctor1 h2,h4{
     text-align: center;
     color: #175190;
+}
+.doctor1 p{
+    color:#175190 ;
 }
 .btn2{
     display: flex;
@@ -419,10 +429,96 @@ main {
     gap: 15px;
     align-items: center;
     justify-items: center;
+    justify-content: center;
     border-radius: 20px;
     background-color: tomato;
     margin-bottom: 40px;
 
+}
+.blocDoctors1{
+    background: url(images/doctors/Rectangle\ 96.png);
+    display: flex;
+    width: 1300px;
+    height: 400px;
+    border-radius: 30px;
+}
+.blocDoctors1 h1,p{
+    color: white;
+    display: flex;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+.btn3{
+    display: flex;
+    margin-left: 40px;  
+ }
+
+.btn3 button{
+    color: white;
+    border:none;
+    height: 70px;
+    width: 350px;
+    font-size: 1.5em;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(131, 212, 231);
+    margin-bottom: 40px;
+
+}
+.imageDoctor img{
+    width: 500px;
+    height: 400px;
+     
+}
+.blocPriceTitre h1{
+    color: white;
+}
+
+.blocPrice{
+    display: flex;
+    gap: 50px ;
+    margin-bottom: 50px;
+
+}
+.content4 h1{
+    color: white;
+    font-size: 2.5em;
+
+}
+.price1{
+    background: white;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+   
+    
+}
+.price{
+    display: flex;
+}
+.price h1,p{
+    margin-left: 40px;
+    text-align: left;
+    
+}
+.price p{
+    margin-top: 50px;
+}
+.price1 p{
+    font-size: 1em;
+    color: dimgrey;
+}
+
+.price1 h1{
+    height: 90px;
+    color: #175190;
+    text-align: left;
+    margin-left: 40px;
 }
 
 
