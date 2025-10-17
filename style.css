@@ -520,6 +520,73 @@ main {
     text-align: left;
     margin-left: 40px;
 }
+.content5{
+    margin-top: 100px;
+
+}
+.blocServiceTitre{
+    display: flex;
+}
+.blocServiceTitre h1{
+    text-align: left;
+    color: white;
+    font-size: 3em;
+}
+.blocServiceTitre p{
+    text-align: end;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.blocService{
+    display: flex;
+    gap: 50px ;
+    margin-bottom: 50px;
+
+}
+
+.service1{
+    background: white;
+    width: 400px;
+    height: 370px;
+    border-radius: 20px;
+    
+    
+}
+.service1 h1{
+    color: #2677BC;
+}
+.service1 p{
+    color: #5B5B5B;
+}
+.service1 button{
+    color: #FF6F61;
+}
+.service1 img,h1,p,button{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.more button{
+    border: 1px solid #FF6F61;
+    background: none;
+    height: 50px;
+    width: 250px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 20px;   
+
+}
+.more img{
+    display: flex;
+    margin-bottom: 30px;
+    
+
+}
 
 
 footer {
