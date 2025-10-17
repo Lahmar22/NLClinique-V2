@@ -1,6 +1,7 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -600,7 +601,7 @@ main {
     gap: 80px;
 }
 
-.blocContact input, select{
+.blocContact input, #contactdoctorType{
     color: rgb(0, 0, 0);
     width: 500px;
     height: 60px;
@@ -704,11 +705,13 @@ footer {
 }
 .links{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     
 }
 .links h1{
-    color:#175190 ;
+    color:#175190;
+    position: relative;
+    right: 40px;
 }
 .links ul{
     list-style: none;
@@ -721,6 +724,7 @@ footer {
     color: rgb(134, 134, 247);
 }
 .location{
+    color: #175190;
     position: relative;
     left: 1000px;
     bottom: 50px;
@@ -728,11 +732,50 @@ footer {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+  header,
+  main,
+  footer {
+    font-size: 0.95em;           
+    padding: 16px;               
+  }
 
-    header,
-    main,
-    footer {
-        font-size: 0.9em;
-    }
+  main {
+    display: flex;
+    flex-direction: column;     
+    gap: 16px;                   
+  }
+
+  img {
+    width: 100%;                
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  header,
+  main,
+  footer {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 12px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  button {
+    width: 100%;                 
+    font-size: 1em;
+    padding: 12px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;        
+  }
 }
